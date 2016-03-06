@@ -27,6 +27,13 @@ describe('oscarWinners-names', function(){
 			var randomItem = oscarWinners.random();
 			expect(oscarWinners.all).to.include(randomItem);
 		});
-
+		it('should return an array of random numbre if passed a number parameter', function(){
+			
+			var randomItems = oscarWinners.random(3);
+			expect(randomItems).to.have.length(3);
+			randomItems.forEach(function(item){
+				expect(oscarWinners.all).to.include(item);
+			});
+		});
 	});
 })
