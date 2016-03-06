@@ -1,0 +1,27 @@
+{
+  "name": "oscarwinner-names",
+  "version": "1.0.0",
+  "description": "Get random Oscar Winner names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Twiinlab/oscarwinner-names.git"
+  },
+  "keywords": [
+    "random",
+    "oscar",
+    "winner"
+  ],
+  "author": "'Ruben <'ruchavarri@gmail.com'>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Twiinlab/oscarwinner-names/issues"
+  },
+  "homepage": "https://github.com/Twiinlab/oscarwinner-names#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
