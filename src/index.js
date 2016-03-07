@@ -4,7 +4,8 @@ var getRandomItem = uniqueRandomArray(oscarWinnerNames);
 
 module.exports = {
 	all: oscarWinnerNames,
-	random: getRandom
+	random: getRandom,
+	get: getItem
 };
 
 function getRandom(number){
@@ -17,4 +18,8 @@ function getRandom(number){
 		}
 		return randomItems;
 	}
+};
+
+function getItem(number){
+	return oscarWinnerNames[number];
 };

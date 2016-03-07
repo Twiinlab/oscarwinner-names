@@ -36,4 +36,12 @@ describe('oscarWinners-names', function(){
 			});
 		});
 	});
+
+	describe('getItem', function(){
+		it('should return the item ', function(){
+			
+			var item = oscarWinners.get(1);
+			expect(oscarWinners.all).to.include(item);
+		});
+	});
 })
