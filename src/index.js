@@ -4,10 +4,10 @@ var getRandomItem = uniqueRandomArray(oscarWinnerNames);
 
 module.exports = {
 	all: oscarWinnerNames,
-	random: random
+	random: getRandom
 };
 
-function random(number){
+function getRandom(number){
 	if(number === undefined){
 		return getRandomItem();
 	} else {
