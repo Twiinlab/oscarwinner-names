@@ -16,7 +16,7 @@ Get random names from Oscar Winner characters.
 This package is distributed via npm:
 
 ```
-npm install starwars-names
+npm install oscarwinner-names
 ```
 
 ## Usage
@@ -25,6 +25,7 @@ npm install starwars-names
 var names = require('oscarwinner-names');
 var allNames = names.all;
 var randomName = names.random();
+var item = names.get(5);
 ```
 
 ## Other
