@@ -30,4 +30,6 @@ var item = names.get(5);
 
 ## Other
 
-This library was developed by [Ruchavarri](https://twitter.com/pekewake)
+This library was developed by [Ruchavarri](https://twitter.com/pekewake) and [DvdChavarri](https://twitter.com/dvdchavarri)
+
+Inspired by Kent C. Dodds' course about ["How to Write an Open Source JavaScript Library"](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-introduction?series=how-to-write-an-open-source-javascript-library)
